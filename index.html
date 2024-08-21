@@ -42,6 +42,17 @@
         },
       };
     </script>
+
+    <style>
+      .image-full::before {
+        background-color: rgba(0, 0, 0, 0) !important;
+        background: radial-gradient(
+          circle,
+          rgba(0, 0, 0, 0.5) 0%,
+          rgba(0, 0, 0, 1) 100%
+        );
+      }
+    </style>
   </head>
   <body class="font-manrope">
     <!-- header section  -->
@@ -238,7 +249,9 @@
       <section class="mt-24 mb-24">
         <!-- title  -->
         <div class="border-y-[3px] border-dashed text-center py-8">
-          <h2 class="text-4xl font-extrabold">Professional Hockeys Club</h2>
+          <h2 class="text-4xl font-extrabold">
+            Professional <span class="text-hockey-orange">Hockeys</span> Club
+          </h2>
           <p
             class="text-lg font-medium text-gray-500 mt-5 max-w-[720px] mx-auto"
           >
@@ -344,6 +357,119 @@
               Amet consectetur. Condimentum dignissim adipiscing .
             </p>
           </div>
+        </div>
+      </section>
+
+      <!-- Program sections  -->
+      <section class="mb-24">
+        <!-- title  -->
+        <div class="border-y-[3px] border-dashed text-center py-8">
+          <h2 class="text-4xl font-extrabold">
+            <span class="text-hockey-orange">Program</span> Sections
+          </h2>
+          <p
+            class="text-lg font-medium text-gray-500 mt-5 max-w-[720px] mx-auto"
+          >
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+
+        <!-- content section  -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 mt-12">
+          <!-- card 01  -->
+          <div class="card image-full">
+            <figure>
+              <img src="Images/2.png" alt="Shoes" class="w-full" />
+            </figure>
+            <div
+              class="text-white z-10 space-y-4 md:p-10 p-5 flex flex-col justify-end"
+            >
+              <h2 class="md:text-3xl text-2xl font-extrabold">
+                Junior Program
+              </h2>
+              <p class="md:text-lg text-base opacity-90">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <div class="">
+                <button
+                  class="btn sm:text-xl font-bold sm:px-5 bg-hockey-orange text-white hover:bg-hockey-orange/80 outline-none border-none"
+                >
+                  Register Now!
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 02  -->
+          <div class="card image-full">
+            <figure>
+              <img src="Images/3.png" alt="Shoes" class="w-full" />
+            </figure>
+            <div
+              class="text-white z-10 space-y-4 md:p-10 p-5 flex flex-col justify-end"
+            >
+              <h2 class="md:text-3xl text-2xl font-extrabold">
+                Teenager Program
+              </h2>
+              <p class="md:text-lg text-base opacity-90">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <div class="">
+                <button
+                  class="btn sm:text-xl font-bold sm:px-5 bg-hockey-orange text-white hover:bg-hockey-orange/80 outline-none border-none"
+                >
+                  Register Now!
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 03  -->
+          <div class="card image-full md:col-span-2">
+            <figure>
+              <img src="Images/4.png" alt="Shoes" class="w-full" />
+            </figure>
+            <div
+              class="text-white z-10 space-y-4 md:p-10 p-5 flex flex-col justify-end"
+            >
+              <h2 class="md:text-3xl text-2xl font-extrabold">
+                Professional Program
+              </h2>
+              <p class="md:text-lg text-base opacity-90 max-w-[550px]">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <div class="">
+                <button
+                  class="btn sm:text-xl font-bold sm:px-5 bg-hockey-orange text-white hover:bg-hockey-orange/80 outline-none border-none"
+                >
+                  Register Now!
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- our product section  -->
+      <section class="mb-24">
+        <!-- title  -->
+        <div class="border-y-[3px] border-dashed text-center py-8">
+          <h2 class="text-4xl font-extrabold">
+            Our <span class="text-hockey-orange">New</span> Products
+          </h2>
+          <p
+            class="text-lg font-medium text-gray-500 mt-5 max-w-[720px] mx-auto"
+          >
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
         </div>
       </section>
     </main>
