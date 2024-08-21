@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hockey - Meet all the heroes from the field</title>
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawsome CDN  -->
+    <script
+      src="https://kit.fontawesome.com/c2acd37326.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Tailwind + DaisyUi CDN Link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            manrope: ["Manrope", "sans-serif"],
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "hockey-orange": "#FF4240",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-manrope">
+    <!-- header section  -->
+    <header class="max-w-screen-xl mx-auto">
+      <!-- navigation bar -->
+      <nav class="py-5">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li>
+                  <a
+                    class="hover:text-hockey-orange transition-all duration-500 text-lg font-semibold"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="hover:text-hockey-orange transition-all duration-500 text-lg font-semibold"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="hover:text-hockey-orange transition-all duration-500 text-lg font-semibold"
+                    >Pages</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="hover:text-hockey-orange transition-all duration-500 text-lg font-semibold"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="hover:text-hockey-orange transition-all duration-500 text-lg font-semibold"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <a class="text-4xl font-extrabold"
+              >Hockey<span class="text-hockey-orange">'</span>s</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li>
+                <a
+                  class="hover:text-hockey-orange transition-all duration-500 text-lg font-semibold"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-hockey-orange transition-all duration-500 text-lg font-semibold"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-hockey-orange transition-all duration-500 text-lg font-semibold"
+                  >Pages</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-hockey-orange transition-all duration-500 text-lg font-semibold"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-hockey-orange transition-all duration-500 text-lg font-semibold"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end space-x-5">
+            <i
+              class="fa-solid fa-magnifying-glass text-2xl text-gray-500 cursor-pointer"
+            ></i>
+            <a
+              class="btn text-xl font-bold px-5 bg-hockey-orange text-white hover:bg-hockey-orange/80"
+              >Get Ticket</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <!-- banner section  -->
+    </header>
+
+    <!-- main section  -->
+    <main></main>
+
+    <!-- footer section  -->
+    <footer></footer>
+  </body>
+</html>
