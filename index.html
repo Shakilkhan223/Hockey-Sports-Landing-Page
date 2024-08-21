@@ -45,13 +45,17 @@
   </head>
   <body class="font-manrope">
     <!-- header section  -->
-    <header class="max-w-screen-xl mx-auto">
+    <header class="max-w-screen-xl mx-auto px-5">
       <!-- navigation bar -->
       <nav class="py-5">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost pl-0 lg:hidden"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -103,7 +107,7 @@
                 </li>
               </ul>
             </div>
-            <a class="text-4xl font-extrabold"
+            <a class="sm:text-4xl text-2xl font-extrabold"
               >Hockey<span class="text-hockey-orange">'</span>s</a
             >
           </div>
@@ -146,7 +150,7 @@
               class="fa-solid fa-magnifying-glass text-2xl text-gray-500 cursor-pointer"
             ></i>
             <a
-              class="btn text-xl font-bold px-5 bg-hockey-orange text-white hover:bg-hockey-orange/80"
+              class="btn sm:text-xl font-bold sm:px-5 bg-hockey-orange text-white hover:bg-hockey-orange/80"
               >Get Ticket</a
             >
           </div>
@@ -154,6 +158,78 @@
       </nav>
 
       <!-- banner section  -->
+      <div class="relative">
+        <div class="carousel w-full">
+          <!-- slide 1 -->
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="Images/1.png" class="w-full" />
+            <div
+              class="absolute flex sm:left-10 sm:bottom-10 left-[50%] -translate-x-[50%] sm:-translate-x-[0] bottom-5 gap-5 justify-between"
+            >
+              <a
+                href="#slide3"
+                class="bg-slate-900 text-white sm:text-xl text-base w-8 h-8 rounded-full inline-flex items-center justify-center md:w-10 md:h-10 hover:bg-slate-700 duration-500"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="bg-slate-900 text-white sm:text-xl text-base w-8 h-8 rounded-full inline-flex items-center justify-center md:w-10 md:h-10 hover:bg-slate-700 duration-500"
+                >❯</a
+              >
+            </div>
+          </div>
+
+          <!-- slide 2 -->
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="Images/1.png" class="w-full" />
+            <div
+              class="absolute flex sm:left-10 sm:bottom-10 left-[50%] -translate-x-[50%] sm:-translate-x-[0] bottom-5 gap-5 justify-between"
+            >
+              <a
+                href="#slide1"
+                class="bg-slate-900 text-white sm:text-xl text-base w-8 h-8 rounded-full inline-flex items-center justify-center md:w-10 md:h-10 hover:bg-slate-700 duration-500"
+                >❮</a
+              >
+              <a
+                href="#slide3"
+                class="bg-slate-900 text-white sm:text-xl text-base w-8 h-8 rounded-full inline-flex items-center justify-center md:w-10 md:h-10 hover:bg-slate-700 duration-500"
+                >❯</a
+              >
+            </div>
+          </div>
+
+          <!-- slide 3 -->
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="Images/1.png" class="w-full" />
+            <div
+              class="absolute flex sm:left-10 sm:bottom-10 left-[50%] -translate-x-[50%] sm:-translate-x-[0] bottom-5 gap-5 justify-between"
+            >
+              <a
+                href="#slide2"
+                class="bg-slate-900 text-white sm:text-xl text-base w-8 h-8 rounded-full inline-flex items-center justify-center md:w-10 md:h-10 hover:bg-slate-700 duration-500"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="bg-slate-900 text-white sm:text-xl text-base w-8 h-8 rounded-full inline-flex items-center justify-center md:w-10 md:h-10 hover:bg-slate-700 duration-500"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="lg:w-1/2 md:w-2/3 bg-slate-900 rounded-xl text-white lg:p-[30px] md:p-5 p-5 mt-4 md:mt-0 md:absolute bottom-10 right-10"
+        >
+          <h2 class="sm:text-2xl text-xl font-semibold mb-3">
+            Meet all the heroes from the field
+          </h2>
+          <p class="font-medium lg:text-lg md:text-base text-gray-400">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+      </div>
     </header>
 
     <!-- main section  -->
